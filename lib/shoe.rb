@@ -9,6 +9,7 @@ class Shoe
 
   def cobble
     if condition == condition
+      condion << "new"
     puts "Your shoe is as good as new!"
     else
       return false
